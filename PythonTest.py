@@ -23,9 +23,8 @@ def log_in():
 
     password_field = driver.find_element_by_xpath("//*[@id='page-container']/div/div[1]/form/fieldset/div[2]/input")
     password_field.clear() #clear field
-
-
     password_field.send_keys(password)
+
     sign_in = driver.find_element_by_xpath("//*[@id='page-container']/div/div[1]/form/div[2]/button") #grab button
     sign_in.click() #click button
 
