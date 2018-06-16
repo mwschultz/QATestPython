@@ -1,6 +1,6 @@
 #Matt Schultz
 #Test automatic log in using Selenium for Google Chrome. Uses the https://twitter.com/login as of 11/6/2017
-#For SignalPath QA apps
+
 
 from selenium import webdriver
 from selenium.webdriver.support import ui
